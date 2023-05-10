@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "build":"npm install && echo 'Build successful'"
+    "build":"npm install && echo 'Build successful'",
+     "outDir": "public"
   },
   "repository": {
     "type": "git",

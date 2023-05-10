@@ -10,6 +10,6 @@ app.use(bodyparser.json());
 //routes
 app.use("/api/user/",userRoutes);
 
-app.listen(6000,()=>{
+app.listen(process.env.PORT || 6000,()=>{
     console.log("SERVER STARTED ON PORT 6000");
 })

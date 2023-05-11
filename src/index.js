@@ -8,7 +8,7 @@ app.use(bodyparser.urlencoded({extended:false}));
 app.use(bodyparser.json());
 
 //routes
-app.use("/api/user/",userRoutes);
+app.use("/",userRoutes);
 
 app.listen(process.env.PORT || 6000,()=>{
     console.log("SERVER STARTED ON PORT 6000");
